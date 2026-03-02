@@ -1,1 +1,54 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hubuntu Package Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1e1e1e;
+            color: #ffffff;
+            text-align: center;
+            padding: 2rem;
+        }
+        h1 {
+            color: #00ff99;
+        }
+        .package {
+            background-color: #2e2e2e;
+            padding: 1rem;
+            margin: 1rem auto;
+            border-radius: 8px;
+            max-width: 400px;
+        }
+        a {
+            color: #00ccff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hubuntu Package Store</h1>
+    <p>Install your favorite Hubuntu packages with <code>sudo hnt install &lt;package&gt;</code></p>
+
+    <div class="package">
+        <h2>htop</h2>
+        <p>Interactive process viewer</p>
+        <a href="packages/htop_3.3.2.deb" download>Download</a>
+    </div>
+
+    <div class="package">
+        <h2>vim</h2>
+        <p>Vi IMproved editor</p>
+        <a href="packages/vim_9.2.deb" download>Download</a>
+    </div>
+
+    <!-- Add more packages here -->
+</body>
+</html>

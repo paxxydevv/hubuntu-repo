@@ -3,5 +3,10 @@
         "version": "0.2",
         "url": "https://paxxydevv.github.io/hubuntu-repo/packages/wifite_0.2.deb",
         "description": "a"
+    },
+    "pimine": {
+        "version": "0.3",
+        "url": "https://paxxydevv.github.io/hubuntu-repo/packages/pimine_0.3.deb",
+        "description": "A easy tool to run minecraft server's on raspberry pi, x86-64 computers and many more sbc's!"
     }
 }
